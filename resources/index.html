@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/start.css">
     <title>Game Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,10 +19,14 @@
         </div>
     </div>
     <div id="gear_container">
-        <div class="gear"></div>
-        <img src="./images/Steamstart.png" alt="Border" id="border">
-        <button id="startButton">Start Game</button>
-        <div class="gear"></div>
+        <a href="" id=start>
+            
+            <img src="./images/Steamstart.png" alt="Border" id="buttonBorder">
+            <div id="startButton">
+                <h4>Start Game</h4>
+            </div>
+            
+        </a>
     </div>
     <script>
         document.getElementById('startButton').addEventListener('click', function () {

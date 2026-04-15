@@ -1,66 +1,101 @@
+@font-face {
+    font-family: 'Jack Of Gears';
+    src: url('../fonts/jackofgears/jack_of_gears.woff2') format('woff2'),
+        url('../fonts/jackofgears/jack_of_gears.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color: #f6e1b5;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    justify-content: center;
+    align-content: center;
     height: 100vh;
     margin: 0;
 }
+
 /*name settings*/
 h1 {
     font-size: 6.5rem;
     color: #936535;
     text-align: center;
     width: 100%;
-    margin:0;
+    margin: 0;
+    font-family: Jack Of Gears, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #name_container {
-   position: relative;
-    width: fit-content
     display: flex;
-    margin: 10% auto;
+    position: relative;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
 #title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width:100%;
-}
-
-#gear_container{
-    position: relative;
-    margin:-2% auto;
-    height: 0;
-    width:40%;
-   justify-content: center;
-    align-items: center;
-    
+    width: 100%;
 }
 
 /*button settings*/
 
-button {
-    padding: 0.625rem 1.25rem;
-    font-size: 1.2rem;
-    background-color: #936535;
-    color: #f6e1b5;
-   
-   
-    cursor: pointer;
-    transition-duration: 0.4s;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    height: 360px;
-    width: 360px;
+#gear_container {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
 
-button:hover {
-    box-shadow: 0 0.5rem 1rem 0 #904a00, 0 0.4rem 1.25rem 0 #904a00;
+#buttonBorder {
+    width: 15vw;
+    height: 7vh;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 00%);
+}
+
+
+#startButton {
+    width: 12.5vw;
+    height: 5.75vh;
+    margin-top: .75vh;
+    margin-left: 1vh;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    background-color: #d9c22e;
+    left: 50%;
+    top: 60%;
+    transform: translate(-60%, 0%);
+     z-index: 9;
+}
+
+h4 {
+    color: #3e3f40;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+#gear_container:hover {
     transform: translateY(-2px);
 }
-
-
