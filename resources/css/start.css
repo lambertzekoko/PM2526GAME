@@ -47,6 +47,20 @@ h1 {
     width: 100%;
 }
 
+#gamehead{
+position: absolute;
+top:1%;
+align-items: center;
+}
+
+#gamehead h1{
+    font-size: 10rem;
+    height: 163px;
+    width: 765px;
+
+}
+
+
 /*button settings*/
 
 #gear_container {
@@ -90,12 +104,13 @@ h1 {
 h4 {
     color: #3e3f40;
     font-family: "IM Fell English", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-size: larger;
+    font-size: 2.5rem;
 }
 
 
 #gear_container:hover {
     transform: translateY(-2px);
 }
+
