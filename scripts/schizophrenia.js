@@ -40,3 +40,9 @@ function visit_hospital(){
     console.log('Your schizophrenia level is now 0.')
     status_check();
 }
+
+function sleep(){
+    schizophrenia_level -= 5;
+    console.log('Your schizophrenia level has decreased by 5 due to sleep.');
+    
+}
