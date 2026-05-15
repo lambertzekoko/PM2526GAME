@@ -44,7 +44,7 @@ header h1 {
 }
 
 #game1 {
-    display: none;
+    display: flex;
 }
 
 #game_area_main {
@@ -76,12 +76,12 @@ header h1 {
     height: 100%;
 
 }
-
+/*1435*/
 /*Main Game Area*/
 #main_game {
     height: 100%;
     width: 100%;
-    display: none;
+    display: flex;
 }
 
 #main_game_bg_area {
@@ -103,12 +103,14 @@ header h1 {
 }
 
 #options_area {
-    width: 25%;
-    height: 40%;
+    width: 60%;
+    height: 38%;
     display: flex;
     flex-wrap: wrap;
-
+    margin-top: 43em;
+    z-index: 4;
 }
+
 
 #chrarea {
     height: 100%;
@@ -200,6 +202,7 @@ header h1 {
     width: 28%;
     bottom: -5%;
     right: 3%;
+    
 }
 
 .option_button {
@@ -232,9 +235,12 @@ header h1 {
 
 /*7532*/
 /*Slot Machine System*/
-#lotto1 {}
+#lotto1 {
+    display: none;
+}
 
 #slot_machine {
+    display: none;
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
@@ -459,6 +465,7 @@ header h1 {
     font-size: 300%;
     animation: blink 2s linear infinite;
 }
+
 
 @keyframes blink {
 
