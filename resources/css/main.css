@@ -35,7 +35,7 @@ header {
 }
 
 header h1 {
-    font-size: 4.22em;
+    font-size: 4.20em;
     color: #936535;
     text-align: center;
     width: 40%;
@@ -213,7 +213,7 @@ justify-content: center;
     margin-top: 6%;
     color: #3e3f40;
     background-color: #936535;
-    font-size: 200%;
+    font-size: 138%;
     border-radius: 1rem;
     font-family: "IM Fell English";
     box-shadow: 0 .9rem #624321;
@@ -825,6 +825,66 @@ p {
 
 @media (min-width: 700px) and (max-width: 2600px) {
 header h1 {
-    font-size: 3.15rem;
+    font-size: 2.6rem;
+}
+#name h2 {
+ font-size:1.0em;
+
+}
+}
+
+@media (min-width: 600px) and (max-width: 1480px){
+
+#name h2 {
+ font-size:-0.2em;
+ width:65% ;
+}
+header h1 {
+    font-size: 3.14rem;
+    margin-top:5% ;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1030px){
+header h1 {
+    font-size: 2.10rem;
+    margin-top:5% ;
+}
+#name h2 {
+font-size: 0.9em;
+width: 57%;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+    header h1 {
+    font-size: 1.8rem;
+    margin-top:5% ;
+}
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+
+    header h1 {
+    font-size: 1.5rem;
+    margin-top:14% ;
+}
+#name h2 {
+font-size: 0.9em;
+width: 57%;
+}
+h3 {
+    font-size:1rem;
+}
+#name {
+    width: 40%;
+}
+
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    header h1 {
+    font-size: 1.3rem;
+    margin-top:14% ;
 }
 }
